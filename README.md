@@ -1,15 +1,17 @@
 FIZZBUZZ DotNet Coding Exercise
-- Technologies Used     :
-  .NET 6  ,
-  Asp .net web api  ,
-  N unit testing
-
-- Sample Input - ["10", "30", "ABC", null]
-- Sample Output - ["Buzz", "FizzBuzz", "Invalid Item", "Invalid Item"]
-
-Testing
-  - Used N Unit Testing Framework
-  - Create a new project for testing the api in the same solution and add a reference to the main api
-  - Command to run test cases: dotnet test
-
-Swagger is used to test the API
+### Steps to run and Test the Application
+1. clone the project to local from git repo
+      -   git clone https://github.com/sravyabejugam/NewDotNetCodingExercise
+ 
+2. Build the application
+    - dotnet build
+ 
+3. Run the application
+   - dotnet run --project CodingExercise
+ 
+4. Open swagger in browser - http://localhost:5207/swagger
+ 
+5. provide the input
+   - Sample Input - ["10", "30", "ABC", null]
+   - you will get the sample output below in response
+      - Sample Output - ["Buzz", "FizzBuzz", "Invalid Item", "Invalid Item"]
