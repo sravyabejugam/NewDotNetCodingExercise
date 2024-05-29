@@ -1,11 +1,11 @@
 FIZZBUZZ DotNet Coding Exercise
-Technologies Used
-  .NET 6
-  Asp .net web api
+- Technologies Used     :
+  .NET 6  ,
+  Asp .net web api  ,
   N unit testing
 
-Sample Input - ["10", "30", "ABC", null]
-Sample Output - ["Buzz", "FizzBuzz", "Invalid Item", "Invalid Item"]
+- Sample Input - ["10", "30", "ABC", null]
+- Sample Output - ["Buzz", "FizzBuzz", "Invalid Item", "Invalid Item"]
 
 Testing
   - Used N Unit Testing Framework
